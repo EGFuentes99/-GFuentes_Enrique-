@@ -1,4 +1,4 @@
-Programa saludo o bienvenida
+# Programa saludo o bienvenida
 nomrbre = input("Ingrese su nombre completo:")
 edad = int(input("ingrese su edad: ")) #int() realiza un parseo de datos para convertir el dato ingresado en entero, ya que por defecto input() devuelve un string
 estatura = float(input("Ingrese su carrera: "))
