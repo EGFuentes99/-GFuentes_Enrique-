@@ -76,3 +76,4 @@ for i in range(1, 10 + 1):
         conteo_iguales_50 += 1
     
 print(f"En la tabla de multiplicar del {número}, hay {conteo_mayores_50} resultados mayores que 50 y {conteo_iguales_50} resultados iguales a 50.")
+
