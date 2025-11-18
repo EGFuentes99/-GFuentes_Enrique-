@@ -56,4 +56,3 @@ if palabra.lower() == palabra_invertida.lower():
 else:
     print(f"La palabra '{palabra}' no es un palíndromo.")
 
-
