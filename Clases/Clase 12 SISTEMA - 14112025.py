@@ -28,3 +28,33 @@ def mostrar_estudiantes(lista_estudiantes):
     print("Lista de Estudiantes:")
     for estudiante in lista_estudiantes:
         print(f"Nombre: {estudiante['nombre']} {estudiante['apellido']}, Promedio: {estudiante['promedio']}")
+
+#Función para buscar un estudiante por nombre
+def buscar_estudiante(lista_estudiantes):
+    nombre_buscar = input("Ingrese el nombre del estudiante que desea buscar:  ")
+    for estudiante in lista_estudiantes:
+        if estudiante['nombre'].lower() == nombre_buscar.lower():
+            print(f"Estudiante encontrado: Nombre: {estudiante['nombre']} {estudiante['apellido']}, Promedio: {estudiante['promedio']}")
+            return
+        else: 
+         print("Estudiante no encontrado.")
+
+#Función principal del sistema
+def _main_():
+    lista_estudiantes = []
+    while True:
+        mostrar_menu()
+        opcion = input("Seleccione una opción: ")
+        if opcion == '1':
+            agregar_estudiante(lista_estudiantes)
+        elif opcion == '2':
+            mostrar_estudiantes(lista_estudiantes)
+        elif opcion == '3':
+            buscar_estudiante(lista_estudiantes)
+        elif opcion == '4':
+            eliminar_estudiante(lista_estudiantes)
+        elif opcion == '5':
+            print("Saliendo del sistema...")
+            break
+        else:
+            print("Opción no válida. Por favor, intente de nuevo.")
