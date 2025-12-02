@@ -1,4 +1,3 @@
-#Solicita el nombre de 5 animales. Guárdalos en un arreglo y muestra solo aquellos cuyos nombres comiencen con una vocal
 def filtrar_animales_por_vocal():
     animales = []
     for i in range(5):

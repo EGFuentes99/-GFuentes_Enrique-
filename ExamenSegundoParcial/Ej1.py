@@ -1,4 +1,3 @@
-#Pide al usuario la temperatura de 7 días y muestra el promedio semanal.
 def calcular_promedio_semanal():
     temperaturas = []
     for i in range (7):
@@ -7,4 +6,3 @@ def calcular_promedio_semanal():
         promedio = sum(temperaturas) / len(temperaturas)
     print(f"La temperatura promedio semanal es: {promedio:.2f}°C")
 calcular_promedio_semanal()
-
