@@ -1,4 +1,4 @@
-# Ejercicio 3: Haz unn programa en python que pida un número entero y muestre cuántos números pares hay desde 1 hasta ese número (incluyendolo su es par)
+# Ejercicio 3: Haz un programa en python que pida un número entero y muestre cuántos números pares hay desde 1 hasta ese número (incluyendolo su es par)
 
 conteo_pares = 0
 # Solicitar al usuario un número entero
